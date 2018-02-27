@@ -20,115 +20,222 @@
         display: table;
       }
 
-      .places {
-
-        height: auto;
-
+      h2{
+        text-decoration: underline;
       }
-
-      .place {
-        margin-left: 20px;
-        float : left;
-        width : 30%;
-        align-items: center;
+      .page-container{
+        width:480px;
+        position: relative;
+        left:30%;
       }
-      .place h2 {
-        text-align: center;
-      }
-      .place img {
-        margin-left:20%;
-        margin-bottom:60px:
-      }
-
-      .places .place {
-        align-content: center;
-      }
-
-      .cpt-places{
+      .header  {
+        width: 100%;
+        float: left;
 
       }
+      .header h1  {
+        position: relative;
+        margin-left: 35px;
+        top: 50px;
+        float: left;
+      }
+      .header img {
+        float: right;
+        padding: 5px;
+      }
+      .header hr  {
+        position:relative;
+        width: 100%;
+        float: left;
+
+      }
+      .city {
+        align-content:center;
+      }
+      .city img {
+        position: relative;
+        left:15%;
+      }
+      .language {
+        align-content:center;
+      }
+
+      table, th, td{
+        width: 100%;
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th, td{
+        width: 50%;
+        padding:10px;
+      }
+
+      .sites{}
+      .site img{
+        float: left;
+        padding:10px;
+      }
+      .site ul li{
+        list-style: none;
+      }
+
     </style>
   </head>
+
   <body>
-    <h1>Michael Davids</h1>
-    <img src="https://placebear.com/g/150/150" alt="photo of me">
-    <hr>
-    <section>
-        <h1>Which City</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-        <img src="https://placebear.com/g/500/500" alt="Photo Of England">
-    </section>
-    <hr>
-    <section>
-      <h1>Foreign Language</h1>
-      <h2>Language</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </section>
-    <hr>
-    <section class="places clearfix">
-      <h1> 3 Historic Places to visit at the V&A Waterfront</h1>
-      <div class="place">
-        <h2>Place #1</h2>
-        <img src="https://placebear.com/g/200/300" alt="photo  of place 1">
+    <div class="page-container">
+      <div class="header clearfix">
+        <h1>Michael Davids</h1>
+        <img src="https://placebear.com/g/170/170" alt="Me">
+        <hr>
       </div>
-      <div class="place">
-        <h2>Place #2</h2>
-        <img src="https://placebear.com/g/200/300" alt="photo  of place 2">
+
+      <div class="city">
+          <h1>Which City</h1>
+          <p>Lorem ipsum dolor slore magna aliqua. Ut enim adnostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Sed consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+          <img src="https://placebear.com/g/300/250" alt="City">
       </div>
-      <div class="place">
-        <h2>Place #3</h2>
-        <img src="https://placebear.com/g/200/300" alt="photo  of place 3">
+      <hr>
+
+      <div class="language">
+        <h2>Dutch</h2>
+        <table>
+          <tr>
+            <th>Dutch</th>
+            <th>English</th>
+          </tr>
+          <tr>
+            <td>"Hallo hoe gaat het vandaag?"</td>
+            <td>"Hello, how are you today ?"</td>
+          </tr>
+          <tr>
+            <td>"Ik voel me heel goed, dank je."</td>
+            <td>"I'm very well, thank you."</td>
+          </tr>
+          <tr>
+            <td>Ik vraag me af of het morgen zal regenen</td>
+            <td>I wonder if It will rain tomorrow</td>
+          </tr>
+        </table>
+        <hr>
       </div>
-    </section>
-    <hr>
-    <section>
-      <h1>Historic places In and around Cape Town</h1>
-      <div class="cpt-places">
-        <h2>Place #1</h2>
-        <img src="https://placebear.com/g/500/500" alt="photo  of place 1">
-        <ul>
-          <li>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </li>
-          <li>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </li>
-          <li>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </li>
-        </ul>
+
+      <div class="sites">
+        <h1>Cool places to checkout at V&A Waterfront</h1>
+
+        <div class="site">
+
+          <h2>Nobel Square</h2>
+          <img src="https://placebear.com/g/200/200" alt="NobelSquare">
+
+          <ul>
+            <li>
+              <p>Lorem ipsum doloex ea cod est laborum.</p>
+            </li>
+            <li>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,odo consequat. Duis aute irure dolor in rnim id est laborum.</p>
+            </li>
+            <li>
+              <p>rommodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </li>
+          </ul>
+
+        </div>
+        <div class="site">
+
+          <h2>The Clock Tower</h2>
+          <img src="https://placebear.com/g/200/200" alt="cathedral">
+
+          <ul>
+            <li>
+              <p>Lorem ipsum doloex ea cod est laborum.</p>
+            </li>
+            <li>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,odo consequat. Duis aute irure dolor in rnim id est laborum.</p>
+            </li>
+            <li>
+              <p>rommodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </li>
+          </ul>
+
+        </div>
+        <div class="site">
+
+          <h2>Some Other Place</h2>
+          <img src="https://placebear.com/g/200/200" alt="bo-kaap">
+          <ul>
+            <li>
+              <p>Lorem ipsum doloex ea cod est laborum.</p>
+            </li>
+            <li>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,odo consequat. Duis aute irure dolor in rnim id est laborum.</p>
+            </li>
+            <li>
+              <p>rommodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </li>
+          </ul>
+        </div>
+        <hr>
       </div>
-      <div class="cpt-places">
-        <h2>Place #2</h2>
-        <img src="https://placebear.com/g/500/500" alt="photo  of place 1">
-        <ul>
-          <li>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </li>
-          <li>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </li>
-          <li>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </li>
-        </ul>
+
+
+      <div class="sites">
+        <h1>Historic places In and around Cape Town</h1>
+
+        <div class="site">
+
+          <h2>Castle of Good Hope</h2>
+          <img src="https://placebear.com/g/200/200" alt="castle">
+
+          <ul>
+            <li>
+              <p>Lorem ipsum doloex ea cod est laborum.</p>
+            </li>
+            <li>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,odo consequat. Duis aute irure dolor in rnim id est laborum.</p>
+            </li>
+            <li>
+              <p>rommodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </li>
+          </ul>
+
+        </div>
+        <div class="site">
+
+          <h2>St. Georges Cathedral</h2>
+          <img src="https://placebear.com/g/200/200" alt="cathedral">
+
+          <ul>
+            <li>
+              <p>Lorem ipsum doloex ea cod est laborum.</p>
+            </li>
+            <li>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,odo consequat. Duis aute irure dolor in rnim id est laborum.</p>
+            </li>
+            <li>
+              <p>rommodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </li>
+          </ul>
+
+        </div>
+        <div class="site">
+
+          <h2>Bo-Kaap</h2>
+          <img src="https://placebear.com/g/200/200" alt="bo-kaap">
+          <ul>
+            <li>
+              <p>Lorem ipsum doloex ea cod est laborum.</p>
+            </li>
+            <li>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,odo consequat. Duis aute irure dolor in rnim id est laborum.</p>
+            </li>
+            <li>
+              <p>rommodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="cpt-places">
-        <h2>Place #3</h2>
-        <img src="https://placebear.com/g/500/500" alt="photo  of place 1">
-        <ul>
-          <li>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </li>
-          <li>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </li>
-          <li>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </li>
-        </ul>
-      </div>
-    </section>
+    </div>
   </body>
 </html>
