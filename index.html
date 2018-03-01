@@ -4,113 +4,27 @@
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Lato:300i|Oswald" rel="stylesheet">
     <title>Basic Web Page </title>
-    <style media="screen">
-
-      h1 {
-        text-align: center;
-        font-family: 'Oswald', sans-serif;
-      }
-
-      body {
-        font-family: 'Lato', sans-serif;
-      }
-      /*Use clear fix to remove the overflow or to reserve places container so that the other floats do not pull up*/
-      .clearfix::after {
-        content: "";
-        clear: both;
-        display: table;
-      }
-
-      h2{
-        text-decoration: underline;
-      }
-
-      .page-container{
-        width:480px;
-        position: relative;
-        left:30%;
-      }
-
-      .header  {
-        width: 100%;
-        float: left;
-
-      }
-
-      .header h1  {
-        position: relative;
-        margin-left: 35px;
-        top: 50px;
-        float: left;
-      }
-
-      .header img {
-        float: right;
-        padding: 5px;
-      }
-
-      .header hr  {
-        position:relative;
-        width: 100%;
-        float: left;
-
-      }
-
-      .city {
-        align-content:center;
-      }
-
-      .city img {
-        position: relative;
-        left:15%;
-      }
-
-      .language {
-        align-content:center;
-      }
-
-      table, th, td{
-        width: 100%;
-        border: 1px solid black;
-        border-collapse: collapse;
-      }
-      th, td{
-        width: 50%;
-        padding:10px;
-      }
-
-      .sites{}
-
-      .site img{
-        float: left;
-        padding:10px;
-      }
-
-      .site ul li{
-        list-style: none;
-      }
-
-    </style>
+    <link rel="stylesheet" href="css/custom.css">
   </head>
-
   <body>
     <div class="page-container">
-      <div class="header clearfix">
+      <div class="header">
         <h1>Michael Davids</h1>
         <img src="https://placebear.com/g/170/170" alt="Me">
         <hr>
       </div>
-
       <div class="city">
-          <h1>Which City</h1>
-          <p>Lorem ipsum dolor slore magna aliqua. Ut enim  Sed consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? adnostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Sed consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Sed consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+          <h1>Amsterdam</h1>
+          <p>Alongside wooden clogs, windmills, and tulips, the Amsterdam Canals spring to mind when anyone mentions Holland. A canal cruise along the Amsterdam Canals is undoubtedly the number one attraction and for first time visitors like me, a canal cruise is a great introduction to the city. </p>
+          <p>There are only in fact 409 bridges connecting Venice’s canals. Amsterdam actually has 1281 bridges. That’s three times as many as Venice!</p>
           <img src="https://placebear.com/g/300/250" alt="City">
       </div>
       <hr>
-
       <div class="language">
         <h2>Dutch</h2>
+        <p>Dutch is a language which is spoken by an estimated sixteen million citizens of Denmark and six million citizens of Flanders. The language is also used by people in some regions of various European countries. Dutch ranks as the sixth widely spoken language in the European Union. When you learn the language, you will be able to understand the dialect of the people if you were to visit countries in Europe like Belgium or The Netherlands.
+Why Should I Learn Dutch?</p>
+        <p>Afrikaans is rather interesting due to it being a South African language with Dutch roots. Native speakers of Afrikaans take pride in the language and view it as a symbol of their unique culture. The language even has its own monument in Western Cape Province, South Africa</p>
         <table>
           <tr>
             <th>Dutch</th>
@@ -131,123 +45,30 @@
         </table>
         <hr>
       </div>
-
-      <div class="sites">
-        <h1>Cool places to checkout at V&A Waterfront</h1>
-
-        <div class="site">
-
-          <h2>Nobel Square</h2>
-          <img src="https://placebear.com/g/200/200" alt="NobelSquare">
-
-          <ul>
-            <li>
-              <p>Lorem ipsum doloex ea cod est laborum.</p>
-            </li>
-            <li>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,odo consequat. Duis aute irure dolor in rnim id est laborum.</p>
-            </li>
-            <li>
-              <p>rommodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </li>
-          </ul>
-
-        </div>
-        <div class="site">
-
-          <h2>The Clock Tower</h2>
-          <img src="https://placebear.com/g/200/200" alt="cathedral">
-
-          <ul>
-            <li>
-              <p>Lorem ipsum doloex ea cod est laborum.</p>
-            </li>
-            <li>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,odo consequat. Duis aute irure dolor in rnim id est laborum.</p>
-            </li>
-            <li>
-              <p>rommodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </li>
-          </ul>
-
-        </div>
-        <div class="site">
-
-          <h2>Some Other Place</h2>
-          <img src="https://placebear.com/g/200/200" alt="bo-kaap">
-          <ul>
-            <li>
-              <p>Lorem ipsum doloex ea cod est laborum.</p>
-            </li>
-            <li>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,odo consequat. Duis aute irure dolor in rnim id est laborum.</p>
-            </li>
-            <li>
-              <p>rommodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </li>
-          </ul>
-        </div>
-        <hr>
-      </div>
-
-
       <div class="sites">
         <h1>Historic places In and around Cape Town</h1>
-
         <div class="site">
-
           <h2>Castle of Good Hope</h2>
-          <img src="https://placebear.com/g/200/200" alt="castle">
-
-          <ul>
-            <li>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,odo consequat. Duis aute irure dolor in rnim id est laborum.</p>
-              <p>Lorem ipsum doloex ea cod est laborum. </p>
-            </li>
-            <li>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,odo consequat. olor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non Duis aute irure dolor in rnim id est laborum.</p>
-            </li>
-            <li>
-              <p>rommodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </li>
-          </ul>
-
+          <img src="https://placebear.com/g/150/150" alt="castle">
+          <p>Built by the Dutch East India Company between 1666 and 1679, the Castle is the oldest existing colonial building in South Africa.</p>
+          <p>The purpose of the Dutch settlement in the Cape was to act as a replenishment station for ships passing the treacherous coast around the Cape on long voyages between the Netherlands and the Dutch East Indies (now Indonesia).</p>
+          <p>A bell tower, situated over the main entrance, was built in 1684—the original bell, the oldest in South Africa, was cast in Amsterdam in 1697 by the East-Frisian bellmaker Claude Fremy, and weighs just over 300 kilograms (660 lb).</p>
         </div>
         <div class="site">
-
-          <h2>St. Georges Cathedral</h2>
-          <img src="https://placebear.com/g/200/200" alt="cathedral">
-
-          <ul>
-            <li>
-              <p>Lorem ipsum doloex ea cod est laborum.</p>
-            </li>
-            <li>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,odo consequat. Duis aute irure dolor in rnim id est laborum.</p>
-            </li>
-            <li>
-              <p>rommodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </li>
-          </ul>
-
+          <h2>St. George's Cathedral</h2>
+          <img src="https://placebear.com/g/150/150" alt="cathedral">
+          <p>St George's Cathedral (in full, The Cathedral Church of St George the Martyr) is the Anglican cathedral in Cape Town, South Africa.</p>
+          <p>The foundation stone was laid by Governor Sir Lowry Cole on St. George's day 23 April 1830.</p>
+          <p>St George's Cathedral was declared a provincial heritage site by Heritage Western Cape on 23 September 2014 in the terms of Section 27 of the National Heritage Resources Act. This gives the site Grade II status and provides the site with protection under South African heritage law.</p>
         </div>
         <div class="site">
-
           <h2>Bo-Kaap</h2>
-          <img src="https://placebear.com/g/200/200" alt="bo-kaap">
-          <ul>
-            <li>
-              <p>Lorem ipsum doloex ea cod est laborum.</p>
-            </li>
-            <li>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,odo consequat. Duis aute irure dolor in rnim id est laborum.</p>
-            </li>
-            <li>
-              <p>rommodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </li>
-          </ul>
+          <img src="https://placebear.com/g/150/150" alt="bo-kaap">
+          <p>The Bo-Kaap is an area of Cape Town, South Africa formerly known as the Malay Quarter.</p>
+          <p>Bo-Kaap is traditionally a multicultural area. The area is known for its brightly coloured homes and cobble stoned streets.</p>
+          <p>It is a former township, situated on the slopes of Signal Hill above the city centre and is a historical centre of Cape Malay culture in Cape Town. </p>
         </div>
-      </div>
+      <footer></footer>
     </div>
   </body>
 </html>

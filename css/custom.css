@@ -1,0 +1,85 @@
+h1 {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+/*Use clear fix to remove the overflow or to reserve places container so that the other floats do not pull up*/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+.page-container{
+  width:auto;
+  position: relative;
+}
+
+.header  {
+  width: 100%;
+  float: left;
+}
+
+.header h1  {
+  position: relative;
+  margin-left: 35px;
+  top: 50px;
+  float: left;
+  left: 450px;
+}
+
+.header img {
+  position:relative;
+  float: right;
+  padding: 5px;
+  left:-350px;
+}
+
+.header hr  {
+  position:relative;
+  width: 90%;
+  top: -0px
+}
+
+.city {
+  align-content:center;
+}
+
+.city img {
+  position: relative;
+  left:15%;
+}
+
+.language {
+  align-content:center;
+}
+
+table, th, td{
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td{
+  width: 50%;
+  padding:10px;
+}
+
+.site{
+  height: 250px;
+}
+
+.site img{
+  float: left;
+  padding:10px;
+}
+
+.site ul li{
+  list-style: none;
+}
