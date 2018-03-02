@@ -2,7 +2,9 @@ h1 {
   text-align: center;
   font-family: 'Oswald', sans-serif;
 }
-
+h2{
+  text-decoration: underline;
+}
 body {
   font-family: 'Lato', sans-serif;
 }
@@ -13,20 +15,22 @@ body {
   display: table;
 }
 
-h2{
-  text-decoration: underline;
-}
-
 .page-container{
   width:auto;
   position: relative;
 }
+.header{
+  display: inline-flex;
+  width:100%;
 
+}
+.header h1 {
+}
+/*
 .header  {
   width: 100%;
   float: left;
 }
-
 .header h1  {
   position: relative;
   margin-left: 35px;
@@ -34,33 +38,28 @@ h2{
   float: left;
   left: 450px;
 }
-
 .header img {
-  position:relative;
+
   float: right;
   padding: 5px;
   left:-350px;
 }
-
 .header hr  {
   position:relative;
   width: 90%;
   top: -0px
 }
-
+*/
 .city {
   align-content:center;
 }
-
 .city img {
   position: relative;
   left:15%;
 }
-
 .language {
   align-content:center;
 }
-
 table, th, td{
   width: 100%;
   border: 1px solid black;
@@ -70,16 +69,10 @@ th, td{
   width: 50%;
   padding:10px;
 }
-
-.site{
-  height: 250px;
-}
-
 .site img{
   float: left;
   padding:10px;
 }
-
 .site ul li{
   list-style: none;
 }
