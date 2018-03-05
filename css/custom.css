@@ -3,12 +3,11 @@ h1 {
   font-family: 'Oswald', sans-serif;
 }
 h2{
-  text-decoration: underline;
+  text-align: center;
 }
 body {
   font-family: 'Lato', sans-serif;
 }
-/*Use clear fix to remove the overflow or to reserve places container so that the other floats do not pull up*/
 .clearfix::after {
   content: "";
   clear: both;
@@ -19,60 +18,159 @@ body {
   width:auto;
   position: relative;
 }
+
 .header{
   display: inline-flex;
   width:100%;
+  margin:0 auto;
 
 }
-.header h1 {
+.header h1{
+  margin-left: 15%;
+  padding-top: 25px;
+  padding-right: 30px;
 }
-/*
-.header  {
-  width: 100%;
-  float: left;
+.header img{
+  margin-right: 15%;
+  padding-right: 20px;
+  display: inline-flex;
 }
-.header h1  {
-  position: relative;
-  margin-left: 35px;
-  top: 50px;
-  float: left;
-  left: 450px;
 }
-.header img {
-
-  float: right;
-  padding: 5px;
-  left:-350px;
+.city p{
+  text-align: justify;
 }
-.header hr  {
-  position:relative;
-  width: 90%;
-  top: -0px
-}
-*/
-.city {
-  align-content:center;
+.city h2{
+  margin:0 auto;
 }
 .city img {
-  position: relative;
-  left:15%;
+  float: left;
+  padding: 15px;
 }
-.language {
-  align-content:center;
+
+
+.sites{
+  padding-right:  10px;
 }
+.site{
+  width:400px;
+  text-align: justify;
+  margin-left: 15px;
+}
+.site img {
+  float: left;
+  padding-right:15px;
+}
+.site1 {
+  width:400px;
+  text-align: justify;
+  padding-left:25px;
+}
+.site1 img {
+  float: right;
+  padding-left:15px;
+}
+.language table {
+  margin:0 auto;
+}
+
+.language h2{
+  text-align: center;
+}
+
 table, th, td{
-  width: 100%;
+  width: 80%;
   border: 1px solid black;
   border-collapse: collapse;
 }
+
 th, td{
   width: 50%;
   padding:10px;
 }
-.site img{
-  float: left;
-  padding:10px;
+@media only screen and (min-width: 200px) {
+  .city img {
+    margin:0 auto;
+    padding-left: 15%;
+  }
+  .city p{
+    text-align: justify;
+  }
 }
-.site ul li{
-  list-style: none;
+@media only screen and (min-width: 450px) {
+  .city p{
+    text-align: justify;
+  }
+    .site{
+      width:95%;
+      text-align: justify;
+      margin: 10px;
+    }
+    .site img {
+      float: left;
+      padding-right:15px;
+    }
+    .site1 {
+      width:95%;
+      text-align: justify;
+      padding-left:5px;
+      padding-right:5px;
+    }
+    .site1 img {
+      float: right;
+      padding-left:15px;
+    }
+
+}
+@media only screen and (min-width: 556px) {
+  .city p{
+    text-align: justify;
+  }
+    .site{
+      width:95%;
+      text-align: justify;
+      margin: 10px;
+    }
+    .site img {
+      float: left;
+      padding-right:15px;
+    }
+    .site1 {
+      width:95%;
+      text-align: justify;
+      padding-left:5px;
+      padding-right:5px;
+    }
+    .site1 img {
+      float: right;
+      padding-left:15px;
+    }
+
+}
+
+@media only screen and (min-width: 800px) {
+  .city p{
+    text-align: justify;
+  }
+    .header h1{
+      margin-left: 33%;
+      padding-top: 25px;
+      padding-right: 30px;
+    }
+    .sites span {
+      display: flex;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+  .city p{
+    text-align: justify;
+  }
+    .header h1{
+      margin-left: 30%;
+      padding-top: 25px;
+      padding-right: 30px;
+    }
+    .sites span {
+      display: flex;
+    }
 }
