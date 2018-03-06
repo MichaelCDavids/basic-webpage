@@ -7,27 +7,14 @@ p{
   padding:10px;
   text-align: justify;
 }
-<<<<<<< HEAD
+
 h1, h2, h3, h4, h5{
   padding: 5px;
   text-align: center;
 }
-h5{
-  padding: 5px;
-=======
-h1, h2, h3, h4, {
-  text-align: center;
-}
-h5{
-  padding-left: 10px;
-  text-decoration: underline;
->>>>>>> 15a7fd387648c5142a7eda3f4ebb3f5093a5db12
-}
-
 table, th, td{
   padding:20px;
   margin:0 auto;
-<<<<<<< HEAD
 }
 .img-circle {
     border-radius: 50%;
@@ -41,8 +28,6 @@ table, th, td{
 }
 .table-box table {
   width:80%;
-=======
->>>>>>> 15a7fd387648c5142a7eda3f4ebb3f5093a5db12
 }
 .sites{
   align-items: center;
