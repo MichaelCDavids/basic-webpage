@@ -1,0 +1,133 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+p{
+  padding:10px;
+  text-align: justify;
+}
+<<<<<<< HEAD
+h1, h2, h3, h4, h5{
+  padding: 5px;
+  text-align: center;
+}
+h5{
+  padding: 5px;
+=======
+h1, h2, h3, h4, {
+  text-align: center;
+}
+h5{
+  padding-left: 10px;
+  text-decoration: underline;
+>>>>>>> 15a7fd387648c5142a7eda3f4ebb3f5093a5db12
+}
+
+table, th, td{
+  padding:20px;
+  margin:0 auto;
+<<<<<<< HEAD
+}
+.img-circle {
+    border-radius: 50%;
+}
+.which-city img{
+  float: left;
+  padding: 15px;
+}
+.table-box {
+  width:100%;
+}
+.table-box table {
+  width:80%;
+=======
+>>>>>>> 15a7fd387648c5142a7eda3f4ebb3f5093a5db12
+}
+.sites{
+  align-items: center;
+}
+.four.columns img  {
+  float: left;
+  padding: 10px;
+}
+.name-box {
+  height:auto;
+  margin:auto;
+  border: 1px solid black;
+}
+.four.columns.name-box{
+  left:500px;
+}
+.name-box h3{
+  float:left;
+  position: relative;
+  top:50px;
+  padding-right: 10px;
+}
+
+.language-box{
+  padding-top: 20px;
+}
+.header h3{
+  text-align: right;
+}
+
+.six.columns img{
+  padding:25px;
+  padding-top:80px;
+  padding-left: 0px;
+}
+
+.twelve.columns h1 {
+  text-align: center;
+}
+
+
+@media (min-width: 200px) {
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+  .header h3{
+    text-align: center;
+  }
+  .header img{
+    padding-left: 30%;
+  }
+}
+
+@media (min-width: 400px) {
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+  .header h3{
+    text-align: center;
+    padding-top: 11%;
+    padding-left: 10%;
+  }
+  .header img{
+    padding-left: 30%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+  .header h3{
+    text-align: right;
+    padding-top: 11%;
+    padding-left: 10%;
+  }
+  .header img{
+    padding-left: 30%;
+  }
+}
+
+footer{
+  text-align: center;
+  background-color: lavender;
+}
