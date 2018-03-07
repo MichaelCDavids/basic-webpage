@@ -23,6 +23,7 @@ body {
   display: flex;
 }
 .header h1{
+  padding-top:20px;
 }
 .header img{
   border-radius: 50%;
