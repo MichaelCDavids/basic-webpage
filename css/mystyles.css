@@ -16,12 +16,24 @@ table, th, td{
   padding:20px;
   margin:0 auto;
 }
-.img-circle {
+.header .six.columns h3 {
+  padding: 50px;
+}
+
+.six.columns h3 {
+    margin:0 auto;
+}
+.six.columns img {
+    position: relative;
+    left:10%;
+    padding: inherit;
     border-radius: 50%;
 }
 .which-city img{
   float: left;
   padding: 15px;
+  width: auto;
+  height: auto;
 }
 .table-box {
   width:100%;
@@ -56,12 +68,6 @@ table, th, td{
 }
 .header h3{
   text-align: right;
-}
-
-.six.columns img{
-  padding:25px;
-  padding-top:80px;
-  padding-left: 0px;
 }
 
 .twelve.columns h1 {
