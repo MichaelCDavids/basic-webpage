@@ -83,6 +83,9 @@ th, td{
   .header{
     display: block;
   }
+  .header img{
+    margin-left: 20%;
+  }
   .city img {
     margin:0 auto;
     padding-left: 3%;
