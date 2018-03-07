@@ -20,22 +20,12 @@ body {
 }
 
 .header{
-  display: inline-block;
-  width:100%;
-  margin:0 auto;
-
+  display: flex;
 }
 .header h1{
-  margin-left: 15%;
-  padding-top: 25px;
-  padding-right: 30px;
 }
 .header img{
-  margin-right: 15%;
-  padding-right: 20px;
-  display: inline-flex;
-  border-radius:100%;
-}
+  border-radius: 50%;
 }
 .city p{
   text-align: justify;
@@ -89,6 +79,9 @@ th, td{
   padding:10px;
 }
 @media only screen and (min-width: 200px) {
+  .header{
+    display: block;
+  }
   .city img {
     margin:0 auto;
     padding-left: 3%;
@@ -98,6 +91,9 @@ th, td{
   }
 }
 @media only screen and (min-width: 450px) {
+  .header{
+    display: block;
+  }
   .city p{
     text-align: justify;
   }
@@ -123,6 +119,9 @@ th, td{
 
 }
 @media only screen and (min-width: 556px) {
+  .header{
+    display: flex;
+  }
   .city p{
     text-align: justify;
   }
@@ -149,6 +148,9 @@ th, td{
 }
 
 @media only screen and (min-width: 800px) {
+  .header{
+    display: flex;
+  }
   .city p{
     text-align: justify;
   }
@@ -163,6 +165,9 @@ th, td{
 }
 
 @media only screen and (min-width: 1000px) {
+  .header{
+    display: flex;
+  }
   .city p{
     text-align: justify;
   }
