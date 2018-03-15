@@ -1,13 +1,32 @@
 h1 {
-  text-align: center;
-  font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    line-height: 46px;
+    font-size: 43px;
+    margin: 0 0 23px 0;
 }
+
 h2{
   text-align: center;
 }
+
+p {
+    font-family: 'Alice', serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+}
+
+/* h1 {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
 body {
   font-family: 'Lato', sans-serif;
-}
+} */
 .clearfix::after {
   content: "";
   clear: both;
